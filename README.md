@@ -1,4 +1,2 @@
 emo website
 -----------
-
- - learning jQuery
