@@ -1,13 +1,43 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
-  <head>
+<html>
+<head>
     <meta charset="utf-8">
-    <title>emo</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/async/2.6.2/async.min.js"></script>
-  </head>
-  <body>
-      <div style="background:#030303;height:100px;width:100px;position:absolute;"></div>
-      <script src="js/JavaScript.js"></script>
-  </body>
+    <link rel="stylesheet" href="css/TabControl/TabCSS.css">
+    <link rel="stylesheet" href="css/Standart.css">
+    <title>ClanEmo</title>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <a href="https://liquipedia.net/warcraft/Hot_Emo_1337">
+                <img src="res/png/Logo-Emo.png" alt="Logo Emo" id="Logo" />
+            </a>
+        </div>
+        <div class="header-center">
+            <div id="Title"><nobr>CLAN EMO</nobr> </div>
+        </div>
+    </header>
+    <content>
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'Div1')" id="defaultOpen">Division 1</button>
+            <button class="tablinks" onclick="openTab(event, 'Div2')">Division 2</button>
+        </div>
+
+        <!-- Tab content -->
+        <div id="Div1" class="tabcontent">
+            <table id="tableDivision1"></table>
+        </div>
+
+        <div id="Div2" class="tabcontent">
+            <table id="tableDivision2"></table>
+        </div>
+        <!-- Tab content -->
+
+
+        <!-- JSS -->
+        <script src="js/TabControl/TabJS.js"></script>
+        <script src="js/JavaScript.js"></script>
+        <!-- JSS -->
+    </content>
+</body>
 </html>

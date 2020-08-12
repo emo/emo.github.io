@@ -1,0 +1,59 @@
+﻿.header-left {
+    height: 100%;
+    width: 100px;
+}
+
+.header-center {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+/*Common header*/
+header {
+    overflow: hidden;
+    /* Включаем режим Flexbox. */
+    display: flex;
+    /* Выравниваем элементы вертикально по центру. */
+    align-items: stretch;
+    background: rgb(163, 73, 164);
+    height: 100px;
+    padding: 6px 12px;
+    margin-bottom: 5px;
+}
+
+#Logo {
+    width: auto;
+    height: 100%;
+}
+
+/*Tittle center and font*/
+#Title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin: 10% 0;
+    min-height: 200px;
+    align-items: center;
+    font-family: algerian;
+    font-size: 500%;
+}
+
+#Div1 {
+    background-color: rgb(163, 73, 164);
+}
+
+#Div2 {
+    background-color: rgb(163, 73, 164);
+}
+
+
+table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
