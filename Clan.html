@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/TabControl/TabCSS.css">
+    <link rel="stylesheet" href="css/Standart.css">
+    <title>BlogEmo</title>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <a href="https://liquipedia.net/warcraft/Hot_Emo_1337">
+                <img src="res/png/Logo-Emo.png" alt="Logo Emo" id="Logo" />
+            </a>
+        </div>
+        <div class="header-center">
+            <div class="header-center2">
+                <div id="Title"><nobr>CLAN EMO</nobr> </div>
+                <div class="topnav">
+                    <a href="index.html">Blog</a>
+                    <a class="active" href="Clan.html">Clan</a>
+                    <a href="Amadeus.html">Amadeus</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <content>
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'Div1')" id="defaultOpen">Division 1</button>
+            <button class="tablinks" onclick="openTab(event, 'Div2')">Division 2</button>
+        </div>
+
+        <!-- Tab content -->
+        <div id="Game" class="tabcontent">
+            <table id="tableBlog"></table>
+        </div>
+
+        <div id="Div1" class="tabcontent">
+            <table id="tableDivision1"></table>
+        </div>
+
+        <div id="Div2" class="tabcontent">
+            <table id="tableDivision2"></table>
+        </div>
+        <!-- Tab content -->
+        <!-- JSS -->
+        <script src="js/TabControl/TabJS.js"></script>
+        <script src="js/JavaScript.js"></script>
+        <!-- JSS -->
+    </content>
+</body>
+</html>
