@@ -26,7 +26,14 @@ var Player = [
     ["Kung_Fu_Rabbit", "KungFuRabbit#2696", "", "", 2, true],
     ["rav3n", "sonder#21813", "", "", 2, true],
 
+<<<<<<< HEAD
 ]
+=======
+var Division1 = [
+    [1, "Савельев Владислав Агафонович", "enalia", "Ena1337"],
+    [2, "Сергеев Маша", "Маша | Qeenon", "Маша"]
+];
+>>>>>>> 7122bea2039377dba47dc16da06504f139045007
 
 
 
@@ -51,6 +58,7 @@ function LoadTable(Table) {
         }  
 	}
 }
+<<<<<<< HEAD
 //Create Table with links to twitch, GoodGame|| Создание таблицы с ссылками на твич
 function TddTd(Table, i) {
     let TdTd = "";
@@ -72,3 +80,5 @@ function TddTd(Table, i) {
 
     return TdTd;
 }
+=======
+>>>>>>> 7122bea2039377dba47dc16da06504f139045007
