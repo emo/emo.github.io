@@ -4,18 +4,12 @@
 }
 
 .header-center {
-    display: block;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-}
-
-.header-center2 {
     display: flex;
     flex-direction: column;
     height: 100%;
     width: 100%;
 }
+
 /*Common header*/
 header {
     overflow: hidden;

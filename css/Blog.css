@@ -1,0 +1,30 @@
+﻿content .blog_item {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px 0px;
+    background-color: rgb(163, 73, 164);
+}
+
+.header_blog {
+    font-style: italic;
+    font-size: 110%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: rgb(113, 73, 164);
+}
+
+.content_blog {
+    padding: 5px;
+    background-color: rgb(113, 73, 164);
+}
+
+.previe_blog {
+    padding: 5px;
+    height: 30%;
+    width: 40%;
+}
