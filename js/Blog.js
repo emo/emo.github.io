@@ -2,9 +2,9 @@
 
 
 var Blogs = [
-    //Title,                            Data,       preview, description
+    //Title,                            Data,       preview, description (html jobs)
     ["Create website party clan emo", "16.08.2020", "1.png", 'Create website party clan emo tab → "clan", division 1 and division 2.'],
-    ["Create Blog", "16.08.2020", "2.png", '']
+    ["Create Blog", "16.08.2020", "2.png", ''],
 
 ]
 

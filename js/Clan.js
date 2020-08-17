@@ -26,16 +26,6 @@ var Player = [
     ["Kung_Fu_Rabbit", "KungFuRabbit#2696", "", "", 2, true],
     ["rav3n", "sonder#21813", "", "", 2, true],
 ]
-
-var Division1 = [
-    [1, "Савельев Владислав Агафонович", "enalia", "Ena1337"],
-    [2, "Сергеев Маша", "Маша | Qeenon", "Маша"]
-];
-
-
-
-
-
 LoadTable(Player);
 
 //Create Table Header, and function remain
