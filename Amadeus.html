@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/TabControl/TabCSS.css">
     <link rel="stylesheet" href="css/Standart.css">
+    <link href="css/Amadeus.css" rel="stylesheet" />
     <title>BlogEmo</title>
 </head>
 <body>
@@ -25,5 +26,29 @@
             </div>
         </div>
     </header>
+    <content>
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'Div1')" id="defaultOpen">Eng</button>
+            <button class="tablinks" onclick="openTab(event, 'Div2')">Rus</button>
+        </div>
+
+        <!-- Tab content -->
+        <div id="Div1" class="tabcontent">
+            <div id="div_division1">
+
+            </div>
+        </div>
+
+        <div id="Div2" class="tabcontent">
+            <div id="div_division2">
+
+            </div>
+        </div>
+        <!-- Tab content -->
+    </content>
+
+    <!-- JSS -->
+    <script src="js/TabControl/TabJS.js"></script>
+    <script src="js/Amadeus.js"></script>
 </body>
 </html>
